@@ -15,10 +15,10 @@ MS-AuthToken requires pip to install.
 
 Install the dependencies and devDependencies and start the server.
 
-```sh
+
 $ cd your_project_folder
 $ pip install MS-AuthToken==1.2
-```
+
 
 
 ### Todos

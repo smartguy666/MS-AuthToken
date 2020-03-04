@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'MS-AuthToken',         # How you named your package folder (MyLib)
   packages = ['MS-AuthToken'],   # Chose the same as "name"
-  version = '1.3',      # Start with a small number and increase it with every change you make
+  version = '1.5',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Use this library to generate authentication token for microsoft services like MS Graph api, Sharepoint rest api etc.',   # Give a short description about your library
   author = 'Taimoor Alam',   # Type in your name
