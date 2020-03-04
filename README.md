@@ -20,7 +20,6 @@ $ cd your_project_folder
 $ pip install MS-AuthToken==1.2
 
 
-
 ### Todos
 
  - Support for more tokens
