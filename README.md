@@ -17,6 +17,8 @@ Install the dependencies and devDependencies and start the server.
 
 ```
 $ cd your_project_folder
+```
+```
 $ pip install MS-AuthToken==1.2
 ```
 
@@ -26,5 +28,5 @@ $ pip install MS-AuthToken==1.2
  - SSO implementation
 
 License
-## ---------------------------------------- ##
-MIT
+
+ - MIT
