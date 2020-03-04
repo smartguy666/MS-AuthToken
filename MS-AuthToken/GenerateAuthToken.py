@@ -5,6 +5,19 @@ class AuthTokenGenerator():
     def GenerateAuthTokenCustomConfig(self, config):
         """
         Generate Microsoft authentication token for graph api and SharePoint rest api.
+        
+        Sample config to pass:
+        
+        config = {
+            'grant_type': 'password',
+            'client_id': YOUR_CLIENT_ID,
+            'client_secret': YOUR_APP_SECRET,
+            'userName': YOUR_USERNAME,
+            'password': YOUR_PASSWORD,
+            'scope': SCOPES,  ## For Graph api use: openid https://graph.microsoft.com/.default For sharepoint rest api use: openid https://your_tenant.sharepoint.com/.default
+            'TenantID': YOUR_TENANT_ID
+        }
+
         """
 
         # username = request.data.get('username')
