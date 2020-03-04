@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'MS-AuthToken',         # How you named your package folder (MyLib)
   packages = ['MS-AuthToken'],   # Chose the same as "name"
-  version = '1.5',      # Start with a small number and increase it with every change you make
+  version = '1.6',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Use this library to generate authentication token for microsoft services like MS Graph api, Sharepoint rest api etc.',   # Give a short description about your library
   author = 'Taimoor Alam',   # Type in your name
   author_email = 'taimoor.6@hotmail.com',    # Type in your E-Mail
   url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/smartguy666/MS-AuthToken/archive/1.3.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/smartguy666/MS-AuthToken/archive/1.6.tar.gz',    # I explain this later on
   keywords = ['Microsoft', 'OAuth', 'MS', 'MS OAuth', 'Auth Token', 'Sharepoint rest api', 'Graph api', 'MS Graph api', 'Auth Token generator'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'requests',
